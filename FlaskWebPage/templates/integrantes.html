@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewpoint" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Homepage ISIS">
+    <title>ISIS - Integrantes</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/style1.css') }}">
+</head>
+
+<body>
+    <header class="cabecalho">
+        <img class="cabecalho-logo" src="static/css/logo.png" alt="Logo ISIS" width=20% height=20%>
+        <nav class="cabecalho-menu">
+            <a class="cabecalho-menu-item" href="{{ url_for('homepage') }}">Homepage</a>
+            <a class="cabecalho-menu-item" href="{{ url_for('dash') }}">Dashboard</a>
+            <a class="cabecalho-menu-item" href="{{ url_for('video') }}">Câmera</a>
+            <a class="cabecalho-menu-item" href="static/ISIS - Integrated System for Industrial Safety.pdf" target="_blank">Documentação</a>
+            <a class="cabecalho-menu-item" href="{{ url_for('integrantes') }}">Integrantes</a>
+        </nav>
+    </header>
+
+    <main class="conteudo">
+    <section class="conteudo-principal">
+        <div class="conteudo-principal-escrito">
+           <h1 class="conteudo-principal-titulo">Integrantes</h1>
+            <section class="corpo">
+                <img class="fotos" src="static/css/eu.png" alt="Foto Victor">
+                <h2 class="conteudo-principal-subtitulo">Victor Nogueira Cirillo</h2>
+            </section>
+            <section class="corpo">
+                <img class="fotos" src="static/css/dani.jpg" alt="Foto Daniel">
+                <h2 class="conteudo-principal-subtitulo">Daniel Melges Ramos</h2>
+            </section>
+            <section class="corpo">
+                <img class="fotos" src="static/css/Gui.jpg" alt="Foto Guilherme">
+                <h2 class="conteudo-principal-subtitulo">Guilherme Nicolau Marostica</h2>
+            </section>
+            <section class="corpo">
+                <img class="fotos" src="static/css/bruno.jpg" alt="Foto Bruno">
+                <h2 class="conteudo-principal-subtitulo">Bruno Gottzsfritz</h2>
+            </section>
+            <section class="corpo">
+                <img class="fotos" src="static/css/vini.jpg" alt="Foto Vinícius">
+                <h2 class="conteudo-principal-subtitulo">Vinicius Cardoso</h2>
+            </section>
+            <section class="corpo">
+                <img class="fotos" src="static/css/biel.jpg" alt="Foto Gabriel">
+                <h2 class="conteudo-principal-subtitulo">Gabriel Marques</h2>
+            </section>
+        </div>
+    </section>
+    </main>
+
+</body>
+
+</html>
