@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro&family=Share+Tech&display=swap');
+
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+text-decoration: none;
+}
+
+body {
+font-size: 100%;
+background: linear-gradient(181.73deg, #0D0036 10.12%, #0D0036 66.3%, #39109B 98.53%);
+}
+
+.cabecalho {
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: space-around;
+padding: 24px;
+}
+
+.cabecalho-logo {
+height: 10%;
+width: 10%;
+}
+
+.cabecalho-menu{
+display: flex;
+gap: 150px;
+}
+
+.cabecalho-menu-item {
+font-family: 'Maven Pro', sans-serif;
+color: #FFFFFF;
+font-weight: 400;
+font-size: 30px;
+}
+
+.cabecalho-menu-item:hover {
+text-decoration: underline;
+}
+
+.conteudo {
+border-top: 0.4px solid #FFFFFF;
+margin-bottom: 48px;
+}
+
+.conteudo-principal {
+display: flex;
+flex-direction: row;
+align-items: flex-end;
+justify-content: flex-start;
+padding: 100px;
+}
+
+.conteudo-principal-escrito {
+display: flex;
+flex-direction: column;
+gap: 50px;
+}
+
+.conteudo-principal-titulo {
+font-family: 'Share Tech', sans-serif;
+color: #FFFFFF;
+font-weight: 400;
+font-size: 64px;
+}
+
+.corpo {
+display: flex;
+flex-direction: row;
+align-items: flex-end;
+justify-content: flex-start;
+gap:50px;
+}
+
+.fotos {
+height: 16%;
+width: 16%;
+}
+
+.conteudo-principal-subtitulo {
+font-family: 'Maven Pro', sans-serif;
+color: #FFFFFF;
+font-weight: 400;
+font-size: 50px;
+}
+
